@@ -20,7 +20,7 @@ const app = express();
 
 app.use(cors())
 
-app.use(express.json())
+app.use(express.json()) //avisa que os valores retornados das rotas serao json
 
 app.use(routes)
 
